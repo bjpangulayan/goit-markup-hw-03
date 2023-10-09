@@ -2,12 +2,14 @@
     --IRIS: #4D5AE5;
     --NAVY-BLUE: #2E2F42;
     --WHITE: #FFFFFF;
+    --CLOUD: #F4F4FD;
     
 }
 /*General Styles*/
 body {
     font-family: "Roboto", sans-serif;
      color: var(--NAVY-BLUE);
+     width: 1158px;
     }
 .section-title {
     text-align: center;
@@ -18,20 +20,37 @@ body {
 }
 /*end of general*/
 /*header section*/
+
+.header {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-header-container {
+    display: flex;
+    align-items: center;
+}
+
 .menu {
     list-style: none;
     padding: 0%;
-}
-.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+     }
+.links { 
     text-decoration: none;
     color: inherit;
-}
+
+       }
 .links:hover {
     color: var(--IRIS);
 }
 .links:focus {
     color: var(--IRIS);
 }
+
 /*logo section*/
 .logo {
     color: var(--NAVY-BLUE);
@@ -40,6 +59,7 @@ body {
     font-size: 18px;
     line-height: 1.3125em;
     letter-spacing: 3%;
+    margin-right: 76px;
 }
 .logo span {
     color: var(--IRIS);
@@ -63,7 +83,8 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 2%;
-    margin-bottom: -1%;
+    gap: 40px;
+  
  }
 .menu-contact {
     font-family: inherit;
@@ -71,6 +92,7 @@ body {
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 2%;
+    gap: 40px;
 }
 /*end of header section*/
 
@@ -78,6 +100,12 @@ body {
 main.main-section .section1 {
     background-color: var(--NAVY-BLUE);
     color: var(--WHITE);
+}
+
+.section1 {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
 }
 .section1-header {
     font-weight: 700;
@@ -96,15 +124,25 @@ main.main-section .section1 {
   font-size: 16px;
   border: none;
   border-radius: 4px;
+  padding: 16px 32px;
   }
 .section1-button:hover {
       background-color: var(--WHITE);
       color: var(--IRIS);
-     
-  }
+       }
 .section1-button:focus {
     background-color: var(--WHITE);
     color: var(--IRIS);
+    }
+.subsections {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.section2-list2 {
+    padding-top: 120px;
+}
+.section3 {
+    background-color: var(--CLOUD);
 }
  /*end of main section*/
  /*footer section*/
@@ -115,7 +153,7 @@ main.main-section .section1 {
         font-size: 18px;
         line-height: 1.3125em;
         letter-spacing: 3%;
-}
+ }
 .footer-logo span {
     color: var(--IRIS);
 }
@@ -133,10 +171,14 @@ main.main-section .section1 {
 }
 .footer {
     background-color: var(--NAVY-BLUE);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .footer-details {
     color: var(--WHITE);
 }
 
 /*end of footer section*/
+
+
 
