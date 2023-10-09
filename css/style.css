@@ -1,0 +1,142 @@
+:root {
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --WHITE: #FFFFFF;
+    
+}
+/*General Styles*/
+body {
+    font-family: "Roboto", sans-serif;
+     color: var(--NAVY-BLUE);
+    }
+.section-title {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+/*end of general*/
+/*header section*/
+.menu {
+    list-style: none;
+    padding: 0%;
+}
+.links {
+    text-decoration: none;
+    color: inherit;
+}
+.links:hover {
+    color: var(--IRIS);
+}
+.links:focus {
+    color: var(--IRIS);
+}
+/*logo section*/
+.logo {
+    color: var(--NAVY-BLUE);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3125em;
+    letter-spacing: 3%;
+}
+.logo span {
+    color: var(--IRIS);
+}
+.logo:hover {
+    color: var(--IRIS);
+}
+.logo span:hover {
+    color:var(--NAVY-BLUE);
+}
+.logo:focus {
+    color: var(--IRIS);
+}
+.logo span:focus{
+    color: var(--NAVY-BLUE);
+}
+/*end of logo section*/
+.menu-main {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+    margin-bottom: -1%;
+ }
+.menu-contact {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 2%;
+}
+/*end of header section*/
+
+/*main section*/
+main.main-section .section1 {
+    background-color: var(--NAVY-BLUE);
+    color: var(--WHITE);
+}
+.section1-header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1em;
+    letter-spacing: 2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section1-button {
+  background-color: var(--IRIS);
+  font-family: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--WHITE);
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  }
+.section1-button:hover {
+      background-color: var(--WHITE);
+      color: var(--IRIS);
+     
+  }
+.section1-button:focus {
+    background-color: var(--WHITE);
+    color: var(--IRIS);
+}
+ /*end of main section*/
+ /*footer section*/
+.footer-logo {
+    color: var(--WHITE);
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.3125em;
+        letter-spacing: 3%;
+}
+.footer-logo span {
+    color: var(--IRIS);
+}
+.footer-logo:hover {
+    color:var(--IRIS) ;
+}
+.footer-logo span:hover {
+    color: var(--WHITE);
+}
+.footer-logo:focus {
+    color: var(--IRIS);
+}
+.footer-logo span:focus {
+    color: var(--WHITE);
+}
+.footer {
+    background-color: var(--NAVY-BLUE);
+}
+.footer-details {
+    color: var(--WHITE);
+}
+
+/*end of footer section*/
+
