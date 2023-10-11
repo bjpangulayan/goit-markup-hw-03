@@ -24,12 +24,14 @@ body {
 .margin {
     margin-left: 156px;
 }
+.header, .menu, ul.section2-list {
+    justify-content: space-around; 
+}
 /*end of general*/
 /*header section*/
 .header {
     border-bottom: 1px solid var(--CORNFLOWER);
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 .main-header-container {
@@ -40,13 +42,12 @@ body {
     list-style: none;
     padding: 0%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-        }
+}
 .links { 
     text-decoration: none;
     color: inherit;
-       }
+}
 .links:hover, .links:focus {
     color: var(--IRIS);
 }
@@ -77,7 +78,7 @@ body {
     line-height: 1.5em;
     letter-spacing: 2%;
     gap: 40px;
-   }
+}
 .menu-contact {
     font-family: inherit;
     font-weight: 400;
@@ -88,13 +89,10 @@ body {
 }
 /*end of header section*/
 /*main section*/
-.section-list {
+.section-list, .section2-pic {
     width: 1128px;
  }
- .section2-pic {
-     width: 1128px;
-   }
-main.main-section .section1 {
+ main.main-section .section1 {
     background-color: var(--NAVY-BLUE);
     color: var(--WHITE);
 }
@@ -121,31 +119,31 @@ main.main-section .section1 {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  }
-  ul.section2-list {
+}
+ul.section2-list {
     list-style: none;
     display: flex;
     gap: 8px;
     align-items: center
-  }
-  .section1-button:hover, .section1-button:focus {
+}
+.section1-button:hover, .section1-button:focus {
       background-color: var(--WHITE);
       color: var(--IRIS);
        }
- .section2-list2 {
+.section2-list2 {
     padding-top: 120px;
 }
 .section3 {
     background-color: var(--CLOUD);
 }
-ul.section3-teamlist {
+ul.section3-teamlist{
     list-style: none;
     display: flex;
     gap: 20px;
-   align-items: center;
-   margin-left: 125px;
+    align-items: center;
+    margin-left: 125px;
  }
-li.staff  {
+li.staff {
     box-shadow: 1px 2px 6px 1px #2E2F4229;
     text-align: center;
     width: 264px;
@@ -177,14 +175,27 @@ li.staff  {
 }
 .footer {
     background-color: var(--NAVY-BLUE);
-    padding-top: 120px;
+    padding-top: 120px;\\\\\\\s
     padding-bottom: 120px;
     }
 .footer-details {
     color: var(--WHITE);
 }
-
 /*end of footer section*/
 
+/*portfolio*/
 
+ul.card-list {
+    list-style: none;
+    border-bottom: #2E2F42;
+}
+li.port {
+   
+    text-align: center;
+    width: 370px;
+    height: 420px;
+    border-radius: 2%;
+    border-bottom:solid #2E2F42;
+   
+}
 
